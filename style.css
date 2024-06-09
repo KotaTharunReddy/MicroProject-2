@@ -1,0 +1,431 @@
+*{
+    font-family: 'DM Sans';
+    margin: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    margin: 0;
+}
+#navBar{
+    display: flex;
+    height: 127px;
+    width: 100vw;
+    background-color: #6F6AF7;
+    position: fixed;
+    z-index: 1000;
+    margin: 0;
+}
+#dapprPara{
+    margin: 0;
+    font-family: 'Delius Unicase';
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 61.43px;
+    line-height: 78.81px;
+    width: 100px;
+    height: 63px;
+    margin-top: 27px;
+    margin-left: 44px;
+    margin-bottom: 37px;
+}
+.optCommon{
+    position: absolute;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    margin: 0;
+}
+#homeDiv{
+    position: absolute;
+    width: 70px;
+    height: 33px;
+    margin-top: 42px;
+    margin-left: 325px;
+
+}
+#aboutDiv{
+    position: absolute;
+    width: 142px;
+    height: 36px;
+    margin-top: 41px;
+    margin-left: 455px;
+
+}
+#infoDiv{
+    position: absolute;
+    width: 199px;
+    height: 36px;
+    top: 41px;
+    left: 635px;
+
+}
+#moreDiv{
+    position: absolute;
+    display: flex;
+    width: 89px;
+    height: 36px;
+    top: 41px;
+    left: 850px;
+
+}
+#downArrow{
+    position: absolute;
+    width: 7.77px;
+    height: 14px;
+    margin-top: 56px;
+    left: 932px;
+    color: #ffffff;
+
+}
+#searchBtn{
+    position: absolute;
+    width: 314px;
+    height: 57px;
+    top: 36px;
+    left: 1000px;
+    border-radius: 63px;
+    border-color: #9F9F9F;
+    border-width: 1px;
+    color: #ffffff;
+
+}
+#searchPara{
+    position: absolute;
+    width: 119px;
+    height: 23px;
+    margin-top: 51px;
+    left: 1020px;
+    font-family: DM Sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #9F9F9F;
+}
+#searchImg{
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    left: 1275px;
+    top: 52px;
+    color: #ADADAD;
+
+}
+#menuDiv{
+    position: absolute;
+    width: 67px;
+    height: 46.61px;
+    top: 38.84px;
+    margin-left: 1400px;
+    color: #ffffff;
+}
+#codeScreen{
+    position: relative;
+    display: flex;
+    height: 100vh;
+}
+#codeImg{
+    width: 456px;
+    height: 560px;
+    margin-top: 250px;
+    margin-left: 70px;
+    border-radius: 20px;
+
+}
+#screen{
+    display: flex;
+    margin: 0;
+
+}
+#screenImg{
+    width: 875px;
+    height: 507px;
+    margin-top: 270px;
+    margin-left: 5px;
+    border-radius: 20px;
+    border: 6px;
+}
+#screenPara{
+    position: absolute;
+    width: 820px;
+    height: 83px;
+    top: 285px;
+    margin-left: 50px;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #6F7373;
+
+}
+#shareContainer{
+    height: 1200px;
+    z-index: 999;
+    float: right;
+}
+#share{
+    position: sticky;
+    z-index: 999;
+    margin-top: -365px;
+    top: 175px;
+    width: 88px;
+    border-radius: 11px;
+    margin-right: 20px;
+}
+#cards{
+    display: flex;
+}
+#card1{
+    position: absolute;
+    width: 280px;
+    height: 130px;
+    top: 933px;
+    margin-left: 85px;
+    border-radius: 11px;
+    background-color: #929DFF;
+    box-shadow: 0px 9px 31px 0px #00000066;
+}
+.cardPara{
+    width: 244px;
+    height: 36px;
+    margin-top: 18px;
+    margin-left: 24px;
+    font-family: DM Sans;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0.07em;
+    text-align: left;
+    color: #FFFFFF;
+}
+#card2{
+    position: absolute;
+    width: 280px;
+    height: 130px;
+    top: 933px;
+    margin-left: 433px;
+    border-radius: 11px;
+    background-color: #734CF2;
+    box-shadow: 0px 9px 31px 0px #00000066;
+}
+#card3{
+    position: absolute;
+    width: 280px;
+    height: 130px;
+    top: 933px;
+    margin-left: 785px;
+    border-radius: 11px;
+    background-color: #D288FF;
+    box-shadow: 0px 9px 31px 0px #00000066;
+}
+#card4{
+    position: absolute;
+    width: 280px;
+    height: 130px;
+    top: 933px;
+    margin-left: 1140px;
+    border-radius: 11px;
+    background-color: #000000;
+    box-shadow: 0px 9px 31px 0px #00000066;
+}
+#chatBot{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    margin-top: 900px;
+    margin-left: 1300px;
+    z-index: 998;
+    bottom: 75px;
+}
+#chatbotImage{
+    width: 150px;
+    height: 150px;
+}
+#info{
+    width: 1355px;
+    height: 717px;
+    margin-top: 500px;
+    margin-left: 85px;
+    border-radius: 21px;
+    background-color: #483EFF;
+}
+#infoLeft{ display: left;}
+#yourinfo{
+    position: absolute;
+    width: 397px;
+    height: 133px;
+    margin-top: 80px;
+    margin-left: 60px;
+    border-radius: 22px;
+    background-color: #BCE0F6;
+    box-shadow: 0px 6px 35px 0px #00000063;
+}
+#yourinfoPara{
+    width: 196px;
+    height: 43px;
+    top: 1378px;
+    margin-left: 106px;
+    text-align: left;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 63px;
+    letter-spacing: 0.08em;
+    color: #000000;
+}
+#bookmarks{
+    position: absolute;
+    width: 397px;
+    height: 133px;
+    margin-top: 300px;
+    margin-left: 60px;
+    border-radius: 22px;
+    border: 5px;
+    color: #FFFFFF;
+    border: 5px solid #FFFFFF;
+}
+#bookmarksPara{
+    width: 234px;
+    height: 43px;
+    top: 1591px;
+    margin-left: 90px;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 63px;
+    letter-spacing: 0.10em;
+    text-align: left;
+    color: #FFFFFF;
+}
+#settings{
+    position: absolute;
+    width: 397px;
+    height: 133px;
+    margin-top: 530px;
+    margin-left: 60px;
+    border-radius: 22px;
+    border: 5px;
+    color: #FFFFFF;
+    border: 5px solid #FFFFFF;
+}
+#settingsPara{
+    width: 176px;
+    height: 43px;
+    top: 1806px;
+    margin-left: 110px;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 63px;
+    letter-spacing: 0.10em;
+    text-align: left;
+    color: #FFFFFF;
+}
+#description{
+    position: absolute;
+    width: 785px;
+    height: 656px;
+    margin-top: 30px;
+    margin-left: 540px;
+    border-radius: 19px;
+    background-color: #FFFFFF;
+}
+#desc{
+    width: 500px;
+    height: 36px;
+    margin-top: 60px;
+    margin-left: 50px;
+    font-family: 'Inter';
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: 0.105em;
+    text-align: left;
+    color: #04285A;
+}
+#dots{
+    display: flex;
+}
+#bio{
+    width: 85px;
+    height: 26px;
+    top: 1463px;
+    margin-left: 78px;
+}
+.similar1{
+    font-family: 'Roboto';
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0.105em;
+    text-align: left;
+    color: #04285A;
+}
+#design{
+    width: 11px;
+    height: 19px;
+    margin-top: 0px;
+    margin-left: 30px;
+}
+.similar2{
+    font-family: 'Roboto';
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: 0.10em;
+    text-align: left;
+    color: #04285A;
+}
+#details{
+    width: 250px;
+    height: 22px;
+    margin-top: 0px;
+    margin-left: 30px;
+}
+.similar3{
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #143565;
+}
+#next{
+    display: flex;
+    width: 200px;
+    height: 78px;
+    margin-top: 410px;
+    margin-left: 40px;
+    border-radius: 9px;
+    background-color: #000000;
+}
+#nextPara{
+    width: 67px;
+    height: 28px;
+    margin-top: 22px;
+    margin-left: 36px;
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #FFFFFF;
+}
+#nextImg{
+    height: 20px;
+    width: 35px;
+    margin-top: 32px;
+    margin-left: 10px;
+    border: 3px;
+    color: #FFFFFF;
+}
+#last{
+    width: 100vw;
+    height: 70px;
+}
